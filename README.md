@@ -28,10 +28,10 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
    git clone https://github.com/hafsaazizi/gestion-etudiants.git
    ```
 2. Configurez la base de données MySQL :
-   - Créez une base de données nommée `studentdatabase`.
+   - Créez une base de données nommée `studentdb`.
    - Mettez à jour le fichier `application.properties` si nécessaire :
      ```properties
-     spring.datasource.url=jdbc:mysql://localhost:3306/studentdatabase?serverTimezone=UTC
+     spring.datasource.url=jdbc:mysql://localhost:3306/studentdb?serverTimezone=UTC
      spring.datasource.username=VotreNomUtilisateur
      spring.datasource.password=VotreMotDePasse
      ```
