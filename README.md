@@ -1,7 +1,7 @@
 # Projet Spring Boot : Gestion des Étudiants
 
 ## Description
-Ce projet est une application RESTful développée avec Spring Boot pour gérer les étudiants. Elle propose des fonctionnalités telles que la création, la suppression, la récupération, et le comptage des étudiants. Les données sont persistées dans une base de données MySQL.
+Ce projet est une application RESTful développée avec Spring Boot pour gérer les étudiants. Il propose des fonctionnalités telles que la création, la suppression, la récupération et le comptage des étudiants. Les données sont persistées dans une base de données MySQL.
 
 ---
 
@@ -10,7 +10,7 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
 - **Suppression d'un étudiant** : Suppression d'un étudiant par son ID.
 - **Récupération des étudiants** : Liste de tous les étudiants.
 - **Comptage des étudiants** : Nombre total d'étudiants enregistrés.
-- **Nombre d'étudiants par année de naissance** : Statistiques regroupées par année de naissance.
+- **Statistiques** : Nombre d'étudiants par année de naissance.
 
 ---
 
@@ -18,14 +18,14 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
 - Java 17 ou supérieur.
 - MySQL installé et configuré.
 - Maven 3.8 ou supérieur.
-- Outil de développement (IntelliJ).
+- Outil de développement (IntelliJ, Eclipse, etc.).
 
 ---
 
 ## Installation
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/HafsaAzizi/spring-boot.git
+   git clone https://github.com/HafsaAzizi/spring-boot.git .
    ```
 2. Configurez la base de données MySQL :
    - Créez une base de données nommée `studentdb`.
@@ -39,6 +39,18 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
    ```bash
    mvn spring-boot:run
    ```
+
+---
+
+## Utilisation
+Pour démarrer l'application :
+1. Clonez le projet, puis lancez l'application avec la commande :
+   ```bash
+   mvn spring-boot:run
+   ```
+2. Accédez à l'interface **Swagger UI** pour interagir avec l'API :
+   [Swagger UI](http://localhost:8080/swagger-ui/) :  
+   L'interface vous permet de tester les différents points de terminaison de l'API et de visualiser la documentation.
 
 ---
 
@@ -58,7 +70,7 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
 - **Backend** : Spring Boot (Spring Data JPA, Spring Web).
 - **Base de Données** : MySQL.
 - **Build Tool** : Maven.
-- **Documentation API** : Swagger OpenAPI (annotations incluses).
+- **Documentation API** : Swagger OpenAPI.
 
 ---
 
