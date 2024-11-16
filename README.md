@@ -25,7 +25,7 @@ Ce projet est une application RESTful développée avec Spring Boot pour gérer 
 ## Installation
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/hafsaazizi/gestion-etudiants.git
+   git clone https://github.com/HafsaAzizi/spring-boot.git
    ```
 2. Configurez la base de données MySQL :
    - Créez une base de données nommée `studentdb`.
