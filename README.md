@@ -74,6 +74,18 @@ Pour démarrer l'application :
 
 ---
 
+
+
+https://github.com/user-attachments/assets/dc1f8cd2-cac5-401b-9739-8e208c51caf8
+
+
+
+https://github.com/user-attachments/assets/d2857acf-5d85-4de1-9402-beae6b722a71
+
+
+
+
+
 ## Auteur
 - **Hafsa Azizi**  
 
